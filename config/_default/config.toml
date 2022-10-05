@@ -6,6 +6,8 @@ theme = "airspace-hugo"
 timeZone = "UTC"
 # post pagination
 paginate = "6" # see https://gohugo.io/extras/pagination/
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$", "(^|/)renv$", "renv\\.lock$"]
+enableEmoji = true
 # post excerpt
 summaryLength = "10" # see https://gohugo.io/content-management/excerpts/
 # google analytics
